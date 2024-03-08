@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-05T12:53:40Z" name="Surefire suite" finished-at="2023-04-05T12:53:59Z" duration-ms="19193">
+    <groups>
+    </groups>
+    <test started-at="2023-04-05T12:53:40Z" name="Surefire test" finished-at="2023-04-05T12:53:59Z" duration-ms="19193">
+      <class name="com_st_pages_test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:40Z" name="setup" finished-at="2023-04-05T18:23:45Z" duration-ms="5607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageURLvalidation()[pri:1, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:45Z" name="loginPageURLvalidation" finished-at="2023-04-05T18:23:46Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageURLvalidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:46Z" name="tearDown" finished-at="2023-04-05T18:23:46Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:46Z" name="setup" finished-at="2023-04-05T18:23:52Z" duration-ms="5818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logingpageImgLogoTest()[pri:2, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:52Z" name="logingpageImgLogoTest" finished-at="2023-04-05T18:23:52Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logingpageImgLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:52Z" name="tearDown" finished-at="2023-04-05T18:23:52Z" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:52Z" name="setup" finished-at="2023-04-05T18:23:56Z" duration-ms="3969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginSpicetag()[pri:3, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:56Z" name="loginSpicetag" finished-at="2023-04-05T18:23:59Z" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSpicetag -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com_st_pages_test.LoginPageTest@32eff876]" started-at="2023-04-05T18:23:59Z" name="tearDown" finished-at="2023-04-05T18:23:59Z" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com_st_pages_test.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com_st_ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com_st_pages_test.ratelistpagetest">
+        <methods>
+          <include name="OpenRatelineCreationpage"/>
+          <include name="setup"/>
+          <include name="browserclosed"/>
+        </methods>
+      </class> <!-- com_st_pages_test.ratelistpagetest -->
+      <class name="com_st_pages_test.ratecreationtest">
+        <methods>
+          <include name="fail2"/>
+          <include name="setup"/>
+          <include name="Country_To_Country_RateLine_Creation" invocation-numbers="0 1"/>
+          <include name="browserclosed"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com_st_pages_test.ratecreationtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
